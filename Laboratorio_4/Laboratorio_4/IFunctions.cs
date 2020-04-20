@@ -6,5 +6,6 @@ namespace Laboratorio_4
         void Reset();
         void On();
         void Off();
+        void Warning();
     }
 }

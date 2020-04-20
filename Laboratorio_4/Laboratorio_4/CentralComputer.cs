@@ -16,5 +16,11 @@ namespace Laboratorio_4
             }
             else machinetype.Reset();
         }
+        public void Notification(IFunctions machinetype) {
+            machinetype.Warning();
+        }
+        public void ManualReset(IFunctions machinetype) {
+            machinetype.Reset();
+        }
     }
 }

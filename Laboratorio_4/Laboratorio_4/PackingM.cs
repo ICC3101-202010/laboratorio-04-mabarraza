@@ -1,11 +1,11 @@
 ﻿using System;
 namespace Laboratorio_4
 {
-    public class PackingM : CentralComputer , IFunctions
+    public class PackingM : CentralComputer, IFunctions
     {
         public void Reset()
         {
-            Console.WriteLine("Your Memory is Full, reseting the Packing Machine...");
+            Console.WriteLine("Reseting the Packing Machine...");
         }
         public void On()
         {
@@ -14,6 +14,9 @@ namespace Laboratorio_4
         public void Off()
         {
             Console.WriteLine("The Packing Machine is now off!");
+        }
+        public void Warning() {
+            Console.WriteLine("WARNING! the memory of the Packing Machine is now full!");
         }
     }
 }

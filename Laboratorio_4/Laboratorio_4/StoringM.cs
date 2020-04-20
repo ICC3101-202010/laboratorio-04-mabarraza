@@ -6,7 +6,7 @@ namespace Laboratorio_4
 
         public void Reset()
         {
-            Console.WriteLine("Your Memory is Full, reseting the Storing Machine...");
+            Console.WriteLine("Reseting the Storing Machine...");
         }
         public void On()
         {
@@ -15,6 +15,10 @@ namespace Laboratorio_4
         public void Off()
         {
             Console.WriteLine("The Storing Machine is now off!");
+        }
+        public void Warning()
+        {
+            Console.WriteLine("WARNING! the memory of the Storing Machine is now full!");
         }
     }
 }

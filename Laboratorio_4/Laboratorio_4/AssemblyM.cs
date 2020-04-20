@@ -5,7 +5,7 @@ namespace Laboratorio_4
     {
         public void Reset()
         {
-            Console.WriteLine("Your Memory is Full, reseting the Pieces Assembler Machine...");
+            Console.WriteLine("Reseting the Pieces Assembler Machine...");
         }
         public void On()
         {
@@ -14,6 +14,10 @@ namespace Laboratorio_4
         public void Off()
         {
             Console.WriteLine("The Pieces Assembler Machine is now off!");
+        }
+        public void Warning()
+        {
+            Console.WriteLine("WARNING! the memory of the Pieces Assembler Machine is now full!");
         }
     }
 }
