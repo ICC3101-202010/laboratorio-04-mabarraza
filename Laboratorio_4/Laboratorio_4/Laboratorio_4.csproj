@@ -32,6 +32,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CentralComputer.cs" />
+    <Compile Include="IFunctions.cs" />
+    <Compile Include="PiecesReceiverM.cs" />
+    <Compile Include="StoringM.cs" />
+    <Compile Include="AssemblyM.cs" />
+    <Compile Include="QualityVerificationM.cs" />
+    <Compile Include="PackingM.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
